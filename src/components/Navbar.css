@@ -205,12 +205,15 @@
         display: none;
     }
 
-    .mobile-toggle {
-        display: block;
+    .navbar {
+        padding: 1rem 1.2rem;
     }
 
-    .navbar {
-        padding: 1rem 1.5rem;
+    .mobile-toggle {
+        display: block;
+        padding: 0.5rem;
+        margin-right: -0.5rem;
+        /* Optical alignment */
     }
 
     .logo {
