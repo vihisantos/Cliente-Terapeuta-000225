@@ -7,9 +7,6 @@ import './Footer.css';
 const Footer = () => {
     return (
         <footer className="footer-container">
-            {/* Smooth Transition Fade */}
-            <div className="footer-fade-top"></div>
-
             <div className="footer-content section-padding">
                 <div className="footer-grid">
                     {/* Brand Column */}
