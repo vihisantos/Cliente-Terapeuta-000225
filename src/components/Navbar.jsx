@@ -37,7 +37,7 @@ const Navbar = () => {
                 <div className="nav-links desktop-only">
                     <Link to="/">Início</Link>
                     <Link to="/terapia">Terapia Quântica</Link>
-                    <a href="/#about">Sobre Mim</a>
+                    <a href={`${import.meta.env.BASE_URL}#about`}>Sobre Mim</a>
                     <button className="nav-cta" onClick={() => window.open('https://wa.me/5500000000000?text=Ol%C3%A1%20Denise!%20%E2%9C%A8%20Gostaria%20de%20saber%20mais%20sobre%20as%20sess%C3%B5es.', '_blank')}>
                         Agendar
                     </button>
@@ -53,7 +53,7 @@ const Navbar = () => {
                     <div className="mobile-menu-content">
                         <Link to="/" onClick={toggleMenu}>Início</Link>
                         <Link to="/terapia" onClick={toggleMenu}>Terapia Quântica</Link>
-                        <a href="/#about" onClick={toggleMenu}>Sobre Mim</a>
+                        <a href={`${import.meta.env.BASE_URL}#about`} onClick={toggleMenu}>Sobre Mim</a>
                         <button className="nav-cta mobile-cta" onClick={() => {
                             window.open('https://wa.me/5500000000000?text=Ol%C3%A1%20Denise!%20%E2%9C%A8%20Gostaria%20de%20saber%20mais%20sobre%20as%20sess%C3%B5es.', '_blank');
                             toggleMenu();
