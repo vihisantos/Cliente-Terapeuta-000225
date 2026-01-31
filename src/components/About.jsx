@@ -11,7 +11,7 @@ const About = () => {
                         <div className="visual-wrapper">
                             {/* Client Photo - Denise */}
                             <img
-                                src="/denise-portrait.png"
+                                src={`${import.meta.env.BASE_URL}denise-portrait.png`}
                                 alt="Denise - Terapeuta Quântica"
                                 className="about-image"
                             />
