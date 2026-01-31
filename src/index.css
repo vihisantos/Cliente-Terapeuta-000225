@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Outfit:wght@200;300;400;500;600&family=Playfair+Display:ital,wght@1,400;1,600&display=swap');
+
+:root {
+  /* PREMIUM LIGHT PALETTE - "Spa/Wellness" Vibe */
+  --color-deep-quantum: #FAFAF9;
+  /* Warm Stone White (less cold) */
+  --color-text-primary: #111827;
+  /* Near Black */
+  --color-text-secondary: #4B5563;
+  /* Cool Grey */
+
+  /* Accents */
+  --color-healing-teal: #0D9488;
+  /* Deep Teal */
+  --color-healing-teal-light: #2DD4BF;
+  /* Vibrant Teal */
+  --color-healing-teal-glow: rgba(45, 212, 191, 0.25);
+
+  --color-stardust-gold: #B45309;
+  /* Bronze Gold */
+  --color-stardust-gold-light: #FCD34D;
+  /* Soft Gold */
+
+  --color-pure-light: #ffffff;
+
+  /* High-End Glassmorphism */
+  --glass-bg: rgba(255, 255, 255, 0.65);
+  --glass-border: rgba(255, 255, 255, 0.8);
+  --glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.05);
+  --glass-blur: blur(20px);
+
+  /* Type */
+  --font-title: 'Cormorant Garamond', serif;
+  --font-body: 'Outfit', sans-serif;
+
+  /* Spacing */
+  --nav-height: 80px;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-deep-quantum);
+  color: var(--color-text-primary);
+  margin: 0;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--font-title);
+  color: var(--color-text-primary);
+  line-height: 1.2;
+}
+
+/* Light Glassmorphism */
+.glass-panel {
+  background: var(--glass-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 4px 20px var(--glass-shadow);
+  border-radius: 24px;
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, var(--color-healing-teal), var(--color-calm-blue));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section-padding {
+  padding: 6rem 2rem;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-healing-teal);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0d9488;
+}
+
+/* Swiper pagination personalization */
+.swiper-pagination-bullet-active {
+  background: var(--color-healing-teal) !important;
+}

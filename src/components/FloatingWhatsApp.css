@@ -1,0 +1,60 @@
+.floating-whatsapp {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    background-color: #25D366;
+    /* WhatsApp Brand Green */
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+    z-index: 1000;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    text-decoration: none;
+}
+
+.floating-whatsapp:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
+}
+
+.whatsapp-tooltip {
+    position: absolute;
+    right: 70px;
+    background: white;
+    color: #0F172A;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(10px);
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.floating-whatsapp:hover .whatsapp-tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
+
+@media (max-width: 768px) {
+    .floating-whatsapp {
+        bottom: 20px;
+        right: 20px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .whatsapp-tooltip {
+        display: none;
+        /* Hide tooltip on mobile to avoid clutter */
+    }
+}

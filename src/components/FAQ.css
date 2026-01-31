@@ -1,0 +1,115 @@
+.faq-section {
+    position: relative;
+    z-index: 10;
+    padding: 6rem 0;
+}
+
+.faq-container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 0 1.5rem;
+}
+
+.faq-item {
+    /* Premium Glass Card */
+    background: var(--glass-bg);
+    backdrop-filter: var(--glass-blur);
+    border: 1px solid var(--glass-border);
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: var(--glass-shadow);
+}
+
+.faq-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 30px rgba(13, 148, 136, 0.1);
+    /* Teal glow */
+    border-color: var(--color-healing-teal);
+}
+
+.faq-item.open {
+    background: rgba(255, 255, 255, 0.9);
+    /* More solid when open for readability */
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+}
+
+.faq-question {
+    padding: 1.8rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    border: none;
+}
+
+.faq-question h3 {
+    margin: 0;
+    font-family: var(--font-title);
+    font-size: 1.4rem;
+    /* Larger, elegant font */
+    font-weight: 500;
+    color: var(--color-text-primary);
+    letter-spacing: 0.5px;
+    transition: color 0.3s ease;
+}
+
+.faq-item.open .faq-question h3 {
+    color: var(--color-healing-teal);
+}
+
+/* Icon Wrapper for rotation */
+.faq-question svg {
+    color: var(--color-stardust-gold);
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    min-width: 24px;
+}
+
+.faq-item.open .faq-question svg {
+    transform: rotate(180deg);
+    color: var(--color-healing-teal);
+}
+
+/* Smooth Accordion Animation using Grid Trick */
+.faq-answer-wrapper {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.faq-item.open .faq-answer-wrapper {
+    grid-template-rows: 1fr;
+}
+
+.faq-answer {
+    overflow: hidden;
+}
+
+.faq-answer p {
+    padding: 0 2rem 2rem 2rem;
+    color: var(--color-text-secondary);
+    line-height: 1.8;
+    font-size: 1.1rem;
+    margin: 0;
+    font-weight: 300;
+}
+
+@media (max-width: 768px) {
+    .faq-question {
+        padding: 1.5rem;
+    }
+
+    .faq-question h3 {
+        font-size: 1.2rem;
+    }
+
+    .faq-answer p {
+        padding: 0 1.5rem 1.5rem 1.5rem;
+    }
+}

@@ -1,0 +1,101 @@
+.benefits-section {
+    position: relative;
+    z-index: 10;
+    background: transparent;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.section-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: var(--color-text-primary);
+}
+
+.section-subtitle {
+    color: var(--color-text-secondary);
+    font-size: 1.15rem;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.benefit-card {
+    padding: 3rem 2rem;
+    text-align: center;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* Premium Glass */
+    background: var(--glass-bg);
+    backdrop-filter: var(--glass-blur);
+    -webkit-backdrop-filter: var(--glass-blur);
+    border: 1px solid var(--glass-border);
+    box-shadow: var(--glass-shadow);
+    border-radius: 20px;
+}
+
+.benefit-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(45, 212, 191, 0.15);
+    border-color: var(--color-healing-teal);
+}
+
+.benefit-icon-wrapper {
+    width: 80px;
+    height: 80px;
+    background: rgba(20, 184, 166, 0.1);
+    /* Light Teal Bg */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.benefit-card:hover .benefit-icon-wrapper {
+    background: var(--color-healing-teal);
+    transform: scale(1.1);
+}
+
+.benefit-icon-svg {
+    color: var(--color-healing-teal);
+    transition: all 0.3s ease;
+}
+
+.benefit-card:hover .benefit-icon-svg {
+    color: #fff;
+}
+
+.benefit-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--color-text-primary);
+}
+
+.benefit-description {
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 2.25rem;
+    }
+
+    .benefits-grid {
+        grid-template-columns: 1fr;
+        /* Stack vertically on mobile */
+        gap: 1.5rem;
+    }
+
+    .benefit-card {
+        padding: 2rem 1.5rem;
+    }
+}
