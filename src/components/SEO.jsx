@@ -2,12 +2,12 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
 const SEO = ({
-    title = "Terapia Quântica | Denise - Harmonização Energética",
-    description = "Transforme sua vida com Terapia Quântica e Multidimensional. Desbloqueie sua energia, cure traumas e eleve sua frequência vibracional. Atendimento online e presencial.",
+    title = "Terapia Quantica Atlantis | Denise - Harmonização Energética",
+    description = "Transforme sua vida com Terapia Quantica Atlantis e Multidimensional. Desbloqueie sua energia, cure traumas e eleve sua frequência vibracional. Atendimento online e presencial.",
     image = "/og-image.jpg",
     url = "https://terapiaquantica.com"
 }) => {
-    const siteTitle = title.includes("Terapia") ? title : `${title} | Terapia Quântica`;
+    const siteTitle = title.includes("Terapia") ? title : `${title} | Terapia Quantica Atlantis`;
 
     return (
         <Helmet>

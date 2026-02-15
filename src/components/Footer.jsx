@@ -11,7 +11,7 @@ const Footer = () => {
                 <div className="footer-grid">
                     {/* Brand Column */}
                     <div className="footer-col brand-col">
-                        <h3 className="footer-logo"><Sparkles size={24} className="footer-icon" /> Terapia Quântica</h3>
+                        <h3 className="footer-logo"><Sparkles size={24} className="footer-icon" /> Terapia Quantica Atlantis</h3>
                         <p className="footer-text">
                             Transformando energias e elevando frequências.
                             Sua jornada de cura começa aqui.
@@ -23,7 +23,7 @@ const Footer = () => {
                         <h4 className="footer-heading">Navegação</h4>
                         <ul className="footer-links">
                             <li><Link to="/">Início</Link></li>
-                            <li><Link to="/terapia">Terapia Quântica</Link></li>
+                            <li><Link to="/terapia">Terapia Quantica Atlantis</Link></li>
                             <li><a href="/#about">Sobre Mim</a></li>
                         </ul>
                     </div>
@@ -47,7 +47,7 @@ const Footer = () => {
                 </div>
 
                 <div className="footer-bottom">
-                    <p>&copy; {new Date().getFullYear()} Terapia Multidimensional & Quântica. Todos os direitos reservados.</p>
+                    <p>&copy; {new Date().getFullYear()} Terapia Multidimensional & Quantica Atlantis. Todos os direitos reservados.</p>
                 </div>
             </div>
         </footer>

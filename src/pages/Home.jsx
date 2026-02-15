@@ -5,7 +5,7 @@ import Hero from '../components/Hero';
 import Benefits from '../components/Benefits';
 import About from '../components/About';
 import FAQ from '../components/FAQ';
-import Testimonials from '../components/Testimonials';
+import Mantras from '../components/Mantras';
 import FloatingWhatsApp from '../components/FloatingWhatsApp';
 import Footer from '../components/Footer';
 
@@ -17,7 +17,7 @@ const Home = () => {
             <Hero />
             <Benefits />
             <About />
-            <Testimonials />
+            <Mantras />
             <FAQ />
             <Footer />
             <FloatingWhatsApp />

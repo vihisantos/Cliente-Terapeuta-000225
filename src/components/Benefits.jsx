@@ -17,7 +17,7 @@ const Benefits = () => {
         {
             title: "Limpeza Energética",
             icon: Sparkles,
-            description: "Remova bloqueios e densidades que impedem seu fluxo natural de abundância e saúde."
+            description: "Remova bloqueios e densidades que impedem seu fluxo natural de abundância, saúde e prosperidade"
         },
         {
             title: "Alinhamento de Chakras",
@@ -28,6 +28,21 @@ const Benefits = () => {
             title: "Cura à Distância",
             icon: Globe2,
             description: "A energia quântica não conhece barreiras de espaço. Receba tratamento onde estiver."
+        },
+        {
+            title: "Divórcio Energético",
+            icon: Sparkles,
+            description: "Liberte-se de laços energéticos do passado que drenam sua vitalidade e impedem novos ciclos."
+        },
+        {
+            title: "Harmonização de Relacionamentos",
+            icon: Sparkles,
+            description: "Cure feridas emocionais e melhore a sintonia em suas relações afetivas e familiares."
+        },
+        {
+            title: "Abertura de Caminhos",
+            icon: Globe2,
+            description: "Desbloqueie estagnações profissionais e financeiras para atrair novas oportunidades e prosperidade."
         }
     ];
 

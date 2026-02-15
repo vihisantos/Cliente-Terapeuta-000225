@@ -30,7 +30,7 @@ const Navbar = () => {
         <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
             <div className="navbar-content">
                 <Link to="/" className="logo">
-                    <Sparkles className="logo-icon" size={24} /> Denise | Terapia Quântica
+                    <Sparkles className="logo-icon" size={24} /> Terapia Quantica Atlantis
                 </Link>
 
                 {/* Desktop Links */}
@@ -38,7 +38,7 @@ const Navbar = () => {
                     <Link to="/">Início</Link>
                     <Link to="/terapia">Terapia Quântica</Link>
                     <a href={`${import.meta.env.BASE_URL}#about`}>Sobre Mim</a>
-                    <button className="nav-cta" onClick={() => window.open('https://wa.me/5500000000000?text=Ol%C3%A1%20Denise!%20%E2%9C%A8%20Gostaria%20de%20saber%20mais%20sobre%20as%20sess%C3%B5es.', '_blank')}>
+                    <button className="nav-cta" onClick={() => window.open('https://wa.me/5500000000000?text=Ol%C3%A1%20Denise!%20%E2%9C%A8%20Gostaria%20de%20saber%20mais%20sobre%20os%20atendimentos.', '_blank')}>
                         Agendar
                     </button>
                 </div>
@@ -55,10 +55,10 @@ const Navbar = () => {
                         <Link to="/terapia" onClick={toggleMenu}>Terapia Quântica</Link>
                         <a href={`${import.meta.env.BASE_URL}#about`} onClick={toggleMenu}>Sobre Mim</a>
                         <button className="nav-cta mobile-cta" onClick={() => {
-                            window.open('https://wa.me/5500000000000?text=Ol%C3%A1%20Denise!%20%E2%9C%A8%20Gostaria%20de%20saber%20mais%20sobre%20as%20sess%C3%B5es.', '_blank');
+                            window.open('https://wa.me/5500000000000?text=Ol%C3%A1%20Denise!%20%E2%9C%A8%20Gostaria%20de%20saber%20mais%20sobre%20os%20atendimentos.', '_blank');
                             toggleMenu();
                         }}>
-                            Agendar Sessão
+                            Agendar Atendimento
                         </button>
                     </div>
                 </div>

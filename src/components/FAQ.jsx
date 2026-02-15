@@ -29,12 +29,12 @@ const FAQ = () => {
             answer: "Para a energia, não existe tempo nem espaço. Através da conexão quântica, acessamos seu campo vibracional exatamente como faríamos presencialmente. A eficácia é a mesma, com o conforto de estar na sua casa."
         },
         {
-            question: "O que eu sinto durante a sessão?",
+            question: "O que eu sinto durante o atendimento?",
             answer: "Cada pessoa reage de forma única. É comum sentir um relaxamento profundo, calor, formigamento leve ou uma sensação de paz absoluta. Algumas pessoas até adormecem, o que é ótimo para o processo de cura."
         },
         {
             question: "Quantas sessões são necessárias?",
-            answer: "Muitos clientes relatam alívio imediato já na primeira sessão. No entanto, para questões mais profundas ou crônicas, recomendo um ciclo de 3 a 5 sessões para ancorar a nova frequência vibracional."
+            answer: "Muitos clientes relatam alívio imediato já no primeiro atendimento. No entanto, para questões mais profundas ou crônicas, recomendo um ciclo de 3 a 5 atendimentos para ancorar a nova frequência vibracional."
         },
         {
             question: "Qual o valor do atendimento?",

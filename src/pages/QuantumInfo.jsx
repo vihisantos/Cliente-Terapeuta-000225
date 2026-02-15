@@ -13,8 +13,8 @@ const QuantumInfo = () => {
   return (
     <>
       <SEO
-        title="O Que é Terapia Quântica"
-        description="Entenda como a Terapia Quântica une ciência e espiritualidade para alinhar sua frequência, reduzir ansiedade e liberar traumas."
+        title="O Que é Terapia Quantica Atlantis"
+        description="Entenda como a Terapia Quantica Atlantis une ciência e espiritualidade para alinhar sua frequência, reduzir ansiedade e liberar traumas."
         url="https://terapiaquantica.com/terapia"
       />
       <Navbar />
@@ -23,7 +23,7 @@ const QuantumInfo = () => {
         {/* Header Section */}
         <header className="quantum-header section-padding" data-aos="fade-up">
           <Link to="/" className="back-link">← Voltar para Início</Link>
-          <h1 className="quantum-title">Entendendo a <span className="text-gradient">Terapia Quântica</span></h1>
+          <h1 className="quantum-title">Entendendo a <span className="text-gradient">Terapia Quantica Atlantis</span></h1>
           <p className="quantum-subtitle">
             A ciência e a espiritualidade unidas para o seu equilíbrio integral.
           </p>
@@ -34,7 +34,7 @@ const QuantumInfo = () => {
           <article className="glass-panel content-box" data-aos="fade-up" data-aos-delay="200">
             <h2>O que é?</h2>
             <p>
-              A Terapia Quântica parte do princípio de que tudo no universo é energia, vibração e frequência.
+              A Terapia Quantica Atlantis parte do princípio de que tudo no universo é energia, vibração e frequência.
               Nosso corpo físico é apenas a manifestação mais densa dessa energia. Quando nossas frequências
               estão desalinhadas — por estresse, traumas ou emoções negativas — surgem os desequilíbrios e doenças.
             </p>
@@ -42,6 +42,18 @@ const QuantumInfo = () => {
               Esta abordagem terapêutica atua diretamente no campo vibracional, identificando e corrigindo
               essas dissonâncias antes mesmo que elas se manifestem fisicamente ou para auxiliar na cura
               de processos já instalados.
+            </p>
+
+            <h2>Transição Planetária</h2>
+            <p>
+              Vivemos um momento único na história da Terra: a Transição Planetária. Estamos saindo de uma era de
+              provas e expiações para uma era de regeneração. Isso significa que a frequência do planeta está se elevando,
+              e tudo o que não vibra no amor e na luz está vindo à tona para ser purificado.
+            </p>
+            <p>
+              Muitos de nós sentimos esse processo como ansiedade, oscilações de humor, cansaço inexplicável ou desorientação.
+              A Terapia Quantica Atlantis ajuda você a ajustar sua vibração pessoal à nova frequência planetária,
+              permitindo que você atravesse esse período com mais leveza, consciência e propósito.
             </p>
 
             <h2>Como funciona a distância?</h2>
@@ -65,8 +77,8 @@ const QuantumInfo = () => {
 
           <div className="cta-wrapper" data-aos="fade-up" data-aos-delay="400">
             <h3>Pronta para transformar sua energia?</h3>
-            <button className="cta-button primary" onClick={() => window.open('https://wa.me/5500000000000?text=Ol%C3%A1%20Denise!%20%E2%9C%A8%20Gostaria%20de%20saber%20mais%20sobre%20as%20sess%C3%B5es.', '_blank')}>
-              Agendar Minha Sessão
+            <button className="cta-button primary" onClick={() => window.open('https://wa.me/5500000000000?text=Ol%C3%A1%20Denise!%20%E2%9C%A8%20Gostaria%20de%20saber%20mais%20sobre%20os%20atendimentos.', '_blank')}>
+              Agendar Meu Atendimento
             </button>
           </div>
         </div>

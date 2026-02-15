@@ -9,7 +9,7 @@ const Hero = () => {
         <section id="hero" className="hero-container">
             <div className="hero-content">
                 <div className="hero-text-wrapper" data-aos="fade-up">
-                    <span className="hero-overline"><span className="text-gradient">Terapia Quântica</span></span>
+                    <span className="hero-overline"><span className="text-gradient">Terapia Quantica Atlantis</span></span>
                     <h2 className="hero-category">ATENDIMENTO ONLINE</h2>
                     <h1 className="hero-title">
                         Reconecte sua <span className="text-gradient">Essência.</span>
@@ -18,8 +18,8 @@ const Hero = () => {
                         Terapia Multidimensional para harmonizar sua frequência vibracional.
                     </p>
                     <div className="hero-actions">
-                        <button className="cta-button primary" onClick={() => window.open('https://wa.me/5500000000000?text=Ol%C3%A1%20Denise!%20%E2%9C%A8%20Gostaria%20de%20saber%20mais%20sobre%20as%20sess%C3%B5es.', '_blank')}>
-                            Agendar Sessão
+                        <button className="cta-button primary" onClick={() => window.open('https://wa.me/5500000000000?text=Ol%C3%A1%20Denise!%20%E2%9C%A8%20Gostaria%20de%20saber%20mais%20sobre%20os%20atendimentos.', '_blank')}>
+                            Agendar Atendimento
                         </button>
                         <button className="cta-button secondary" onClick={() => navigate('/terapia')}>
                             Saiba Mais
